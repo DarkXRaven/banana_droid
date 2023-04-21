@@ -1,0 +1,96 @@
+# APEX
+ro.apex.updatable=false
+
+# Audio
+ro.audio.silent=0
+ro.config.vc_call_vol_steps=10
+ro.config.media_vol_steps=15
+
+# Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+
+# Brand
+Build.BRAND=MTK
+
+# Camera
+ro.camera.sound.forced=0
+
+# Charger
+ro.charger.enable_suspend=true
+persist.vendor.quick.charge=1
+ro.charger.disable_init_blank=1
+ro.product.charger.unplugged_shutdown_time=1000
+
+# Disable blur on app launch
+ro.launcher.blur.appLaunch=0
+
+# FUSE passthrough
+persist.sys.fuse.passthrough.enable=true
+
+# Graphics
+ro.opengles.version=196610
+
+# IMS
+persist.vendor.ims.disableADBLogs=1
+persist.vendor.ims.disableDebugLogs=1
+persist.vendor.ims.disableIMSLogs=1
+persist.vendor.ims.disableQXDMLogs=1
+
+# Kernel
+ro.kernel.zio=38,108,105,16
+
+# LMK
+ro.config.low_ram=false
+
+# Netflix
+ro.netflix.bsp_rev=MTK6785-18758-1
+
+# Perf
+ro.mtk_perf_simple_start_win=1
+ro.mtk_perf_fast_start_win=1
+ro.mtk_perf_response_time=1
+
+# Power off
+sys.ipo.pwrdncap=2
+
+# Properties
+ro.product.property_source_order=odm,vendor,product,system
+persist.sys.mdlog_dumpback=2
+
+# Radio
+persist.sys.radio.force_lte_ca=false
+vendor.rild.libpath=mtk-ril.so
+vendor.rild.libargs=-d /dev/ttyC0
+
+# RIL
+persist.sys.fflag.override.settings_provider_model=false
+
+# Sensors
+persist.radio.sar_sar_sensor=true
+
+# System
+persist.sys.binary_xml=false
+
+# Usb
+ro.sys.usb.mtp.whql.enable=0
+ro.sys.usb.storage.type=mtp
+ro.sys.usb.bicr=no
+ro.sys.usb.charging.only=yes
+
+# Wifi
+ro.mediatek.wlan.wsc=1
+ro.mediatek.wlan.p2p=1
+ro.vendor.net.enable_dual_wifi=1
+mediatek.wlan.ctia=0
+wifi.interface=wlan0
+wifi.direct.interface=p2p0
+wifi.tethering.interface=ap0
+
+# Zygote
+ro.zygote.preload.enable=0
+
+# Zram
+ro.zram.mark_idle_delay_mins=60
+ro.zram.first_wb_delay_mins=180
+ro.zram.periodic_wb_delay_hours=24
